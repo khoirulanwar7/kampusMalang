@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kampus Malang</title>
+    <link href="dist/output.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header id="header" class="top-0 left-0 z-10 flex items-center w-full bg-transparent absolute">
+      <div class="container mx-auto">
+        <div class="relative py-2.5 lg:py-1 flex items-center justify-between">
+          <div class="px-4 mx-6">
+            <a href="index.html" class="text-blue-600 font-bold text-lg md:text-xl lg:text-2xl">kampusMalang.</a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="absolute block right-4 lg:hidden">
+              <span class="transition duration-300 ease-in-out hamburger-line origin-bottom-left"></span>
+              <span class="transition duration-300 ease-in-out hamburger-line"></span>
+              <span class="transition duration-300 ease-in-out hamburger-line origin-top-left"></span>
+            </button>
+            <nav id="nav-menu"
+              class="hidden absolute py-5 lg:shadow-none lg:rounded-none bg-white shadow-lg rounded-lg max-w-[250px] w-full right-5 top-full lg:block lg:static lg:bg-transparent lg:max-w-full">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="#hero" class="text-lg text-slate-600 py-2 mx-6 flex group-hover:text-blue-600">
+                    Home
+                  </a>
+                </li>
+                <li class="group">
+                  <a href="#perguruan" class="text-lg text-slate-600 py-2 ml-6 flex group-hover:text-blue-600">
+                    Perguruan Tinggi
+                  </a>
+                </li>
+                <li class="group">
+                  <a href="#jurusan" class="text-lg text-slate-600 py-2 ml-6 flex group-hover:text-blue-600">
+                    Jurusan
+                  </a>
+                </li>
+                <li class="group">
+                  <a href="login.html" class="text-lg font-semibold text-white py-2 ml-6 flex">
+                    <div class="bg-blue-500 px-[1.4rem] py-1 lg:px-3 rounded-md hover:bg-blue-700">
+                      Login
+                    </div>
+                  </a>
+                </li>
+                <li class="group">
+                  <a href="" class="text-lg font-semibold text-white py-2 ml-6 lg:ml-2 flex">
+                    <div class="bg-blue-500 hover:bg-blue-700 py-1 px-3 rounded-md">
+                      Register
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Start Hero Section -->
+    <section id="hero" class="pt-20 pb-28 md:pt-24 lg:pt-28 min-h-full">
+      <div class="container mx-auto px-8">
+        <div class="flex flex-wrap">
+          <div class="self-center w-full px-4 lg:w-1/2 mb-3">
+            <h1 class="text-base font-semibold text-blue-600 md:text-xl lg:text-2xl mb-4">Selamat Datang di
+              <span class="block text-3xl font-bold lg:text-5xl text-slate-900">
+                KampusMalang.
+              </span>
+            </h1>
+            <p class="font-medium text-base md:text-lg leading-relaxed text-slate-500 mb-10">
+              Kampus Malang adalah cara terbaik mencari tempat kuliah yang anda minati
+            </p>
+            <a href="perguruan.html"
+              class="bg-transparent py-2.5 px-3 rounded-xl text-blue-600 font-semibold border border-blue-600 hover:text-white hover:bg-blue-600 hover:shadow-md transition duration-400 ease-in-out">
+              Cari Sekarang
+            </a>
+          </div>
+          <div class="self-center w-full px-4 lg:w-1/2">
+            <img src="img/hero.jpg" alt="" height="600px" width="600px" class="mx-auto">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- Start Perguruan Section -->
+    <section id="perguruan" class="pt-28 lg:pt-36 pb-32 bg-gray-50">
+      <div class="container mx-auto px-2">
+        <div class="w-full px-4">
+          <div class="w-full px-4">
+            <div class="max-w-xl mx-auto text-center mb-16">
+              <h4 class="font-semibold text-xl text-blue-600 mb-2">Perguruan Tinggi</h4>
+              <h2 class="font-bold text-black text-3xl mb-4">Rekomendasi Perguruan Tinggi</h2>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap">
+            <div class="w-full px-4 md:w-1/2 lg:w-1/4">
+              <div class="bg-white rounded-xl border overflow-hidden shadow-lg mb-12">
+                <img src="img/kampus/polinema.png" alt="" class="w-full h-48">
+                <div class="py-8 px-6">
+                  <h3>
+                    <a href="#" class="block mb-3 font-semibold text-xl text-black hover:text-primary">
+                      Politeknik Negeri Malang
+                    </a>
+                  </h3>
+                  <p class="text-base font-medium text-slate-600 mb-6 line-clamp-4 lg:line-clamp-3">Polinema adalah
+                    institusi pendidikan tinggi vokasi yang terletak di kota Malang. Malang adalah kota terbesar kedua
+                    di
+                    Jawa Timur,Indonesia. Malang merupakan tempat yang nyaman untuk belajar karena udaranya yang sejuk
+                    dan populasi yang
+                    tidak begitu padat (sekitar 800 ribu penduduk).
+                  </p>
+                  <a href="#"
+                    class="font-medium text-sm text-white bg-blue-400 py-2 px-4 rounded-lg hover:bg-blue-600 hover:shadow-md">
+                    Selengkapnya...
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="w-full px-4 md:w-1/2 lg:w-1/4">
+              <div class="bg-white rounded-xl border overflow-hidden shadow-lg mb-12">
+                <img src="img/kampus/ub.jpg" alt="" class="w-full h-48">
+                <div class="py-8 px-6">
+                  <h3>
+                    <a href="#" class="block mb-3 font-semibold text-xl text-black hover:text-primary">
+                      Unversitas Brawijaya
+                    </a>
+                  </h3>
+                  <p class="text-base font-medium text-slate-600 mb-6 line-clamp-4">
+                    Universitas Brawijaya (UB) didirikan oleh Presiden Republik Indonesia melalui kawat no. 258/K/61
+                    dikirim pada tanggal 11
+                    Juli 1961.
+                  </p>
+                  <a href="#"
+                    class="font-medium text-sm text-white bg-blue-400 py-2 px-4 rounded-lg hover:bg-blue-600 hover:shadow-md">
+                    Selengkapnya...
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="w-full px-4 md:w-1/2 lg:w-1/4">
+              <div class="bg-white rounded-xl border overflow-hidden shadow-lg mb-12">
+                <img src="img/kampus/UM-malang.jpg" alt="" class="w-full h-48">
+                <div class="py-8 px-6">
+                  <h3>
+                    <a href="#" class="block mb-3 font-semibold text-xl text-black hover:text-primary">
+                      Universitas Malang
+                    </a>
+                  </h3>
+                  <p class="text-base font-medium text-slate-600 mb-6 line-clamp-4">
+                    Berawal dari Perguruan Tinggi Pendidikan Guru (PTPG) pada tahun 1954, universitas di Malang ini
+                    resmi berganti nama
+                    sebagai Universitas Negeri Malang pada tahun 1999.
+                  </p>
+                  <a href=""
+                    class="font-medium text-sm text-white bg-blue-400 py-2 px-4 rounded-lg hover:bg-blue-600 hover:shadow-md">
+                    Selengkapnya...
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="w-full px-4 md:w-1/2 lg:w-1/4">
+              <div class="bg-white rounded-xl border overflow-hidden shadow-lg mb-12">
+                <img src="img/kampus/uin.jpg" alt="" class="w-full h-48">
+                <div class="py-8 px-6">
+                  <h3 class="">
+                    <a href="#" class="block mb-3 font-semibold text-xl text-black hover:text-primary line-clamp-2">
+                      UIN Maulana Malik Ibrahim
+                    </a>
+                  </h3>
+                  <p class="text-base font-medium text-slate-600 mb-6 line-clamp-4 lg:line-clamp-3">
+                    Universitas Islam Negeri Maulana Malik Ibrahim Malang berdiri berdasarkan Surat Keputusan Presiden
+                    No. 50 tanggal 21
+                    Juni 2004.
+                  </p>
+                  <a href="#"
+                    class="font-medium text-sm text-white bg-blue-400 py-2 px-4 rounded-lg hover:bg-blue-600 hover:shadow-md">
+                    Selengkapnya...
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="px-5 lg:px-6">
+            <a href="perguruan.html"
+              class="text-blue-400 text-lg lg:text-xl font-semibold tracking-wider hover:text-blue-600">
+              Lihat Selengkapnya
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Perguruan Section -->
+
+    <!-- Start Jurusan Section -->
+    <section id="jurusan" class="pt-28 lg:pt-36 pb-20 bg-white">
+      <div class="container mx-auto px-2">
+        <div class="w-full px-4">
+          <div class="w-full px-4">
+            <div class="max-w-xl mx-auto text-center mb-16">
+              <h4 class="font-semibold text-xl text-blue-600 mb-2">Jurusan</h4>
+              <h2 class="font-bold text-black text-3xl mb-4">Rekomendasi Jurusan</h2>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap">
+            <div class="w-full px-4 md:w-1/2 lg:w-1/4">
+              <div class="bg-white rounded-xl border overflow-hidden shadow-lg mb-12">
+                <img src="img/jurusan/Teknologi-Informasi.jpg" alt="" class="w-full h-48">
+                <div class="py-8 px-6">
+                  <h3>
+                    <a href="#" class="block mb-3 font-semibold text-xl text-black hover:text-primary">
+                      Teknologi Informasi
+                    </a>
+                  </h3>
+                  <p class="text-base font-medium text-slate-600 mb-6 line-clamp-5">
+                    Teknologi Informasi adalah Disiplin ilmu yang mempelajari solusi-solusi teknologi komputer bagi
+                    organisasi bisnis,
+                    pemerintah, kesehatan, sekolah dan organisasi lainnya.
+                  </p>
+                  <a href="#"
+                    class="font-medium text-sm text-white bg-blue-400 py-2 px-4 rounded-lg hover:bg-blue-600 hover:shadow-md">
+                    Selengkapnya...
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="w-full px-4 md:w-1/2 lg:w-1/4">
+              <div class="bg-white rounded-xl border overflow-hidden shadow-lg mb-12">
+                <img src="img/jurusan/teknik-sipil.webp" alt="" class="w-full h-48">
+                <div class="py-8 px-6">
+                  <h3>
+                    <a href="#" class="block mb-3 font-semibold text-xl text-black hover:text-primary">
+                      Teknik Sipil
+                    </a>
+                  </h3>
+                  <p class="text-base font-medium text-slate-600 mb-6 line-clamp-5">
+                    Teknik sipil adalah salah satu cabang ilmu Teknik yang mempelajari tentang bagaimana merancang,
+                    membangun, merenovasi
+                    tidak hanya gedung dan infrastruktur tetapi juga mencakup lingkungan untuk kemaslahatan hidup
+                    manusia.
+                  </p>
+                  <a href="#"
+                    class="font-medium text-sm text-white bg-blue-400 py-2 px-4 rounded-lg hover:bg-blue-600 hover:shadow-md">
+                    Selengkapnya...
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="w-full px-4 md:w-1/2 lg:w-1/4">
+              <div class="bg-white rounded-xl border overflow-hidden shadow-lg mb-12">
+                <img src="img/jurusan/teknik-elektro.jpg" alt="" class="w-full h-48">
+                <div class="py-8 px-6">
+                  <h3>
+                    <a href="#" class="block mb-3 font-semibold text-xl text-black hover:text-primary">
+                      Teknik Elektro
+                    </a>
+                  </h3>
+                  <p class="text-base font-medium text-slate-600 mb-6 line-clamp-5">
+                    Teknik Elektro disebut juga Teknik Listrik / Elektronika. Jurusan atau program studi ini adalah
+                    bagian dari bidang teknik yang mempelajari, mendesain dan mengaplikasikan komponen dan sistem yang
+                    memanfaatkan listrik, elektronika dan electromagnetism.
+                  </p>
+                  <a href="#"
+                    class="font-medium text-sm text-white bg-blue-400 py-2 px-4 rounded-lg hover:bg-blue-600 hover:shadow-md">
+                    Selengkapnya...
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="w-full px-4 md:w-1/2 lg:w-1/4">
+              <div class="bg-white rounded-xl border overflow-hidden shadow-lg mb-12">
+                <img src="img/jurusan/teknik-mesin.jpg" alt="" class="w-full h-48">
+                <div class="py-8 px-6">
+                  <h3>
+                    <a href="#" class="block mb-3 font-semibold text-xl text-black hover:text-primary">
+                      Teknik Mesin
+                    </a>
+                  </h3>
+                  <p class="text-base font-medium text-slate-600 mb-6 line-clamp-5">
+                    Teknik Mesin merupakan bidang keilmuan yang mempelajari prinsip dasar fisika untuk analisis, desain,
+                    manufaktur, dan
+                    memelihara sebuah sistem mekanik.
+                  </p>
+                  <a href="#"
+                    class="font-medium text-sm text-white bg-blue-400 py-2 px-4 rounded-lg hover:bg-blue-600 hover:shadow-md">
+                    Selengkapnya...
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="px-5 lg:px-6">
+            <a href="" class="text-blue-400 text-lg lg:text-xl font-semibold tracking-wider hover:text-blue-600">
+              Lihat Selengkapnya
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Jurusan Section -->
+
+    <!-- Start Footer -->
+    <footer class="bg-blue-900 py-10 text-white">
+      <div class="container mx-auto">
+        <div class="flex justify-between px-10">
+          <div>
+            <h1>kampusMalang.</h1>
+          </div>
+          <div>
+            <h1>Panduan untuk memilih jurusan dan kampus di kota Malang.</h1>
+          </div>
+          <div>
+            <h1>LOGO SOSMED</h1>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+
+    <script src="dist/js/script.js"></script>
+  </body>
+
+</html>

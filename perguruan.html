@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kampus Malang</title>
+    <link href="dist/output.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header id="header" class="top-0 left-0 z-10 flex items-center w-full bg-transparent absolute">
+      <div class="container mx-auto">
+        <div class="relative py-2.5 lg:py-1 flex items-center justify-between">
+          <div class="px-4 mx-6">
+            <a href="index.html" class="text-blue-600 font-bold text-lg md:text-xl lg:text-2xl">kampusMalang.</a>
+          </div>
+          <div class="flex items-center px-4">
+            <button id="hamburger" name="hamburger" type="button" class="absolute block right-4 lg:hidden">
+              <span class="transition duration-300 ease-in-out hamburger-line origin-bottom-left"></span>
+              <span class="transition duration-300 ease-in-out hamburger-line"></span>
+              <span class="transition duration-300 ease-in-out hamburger-line origin-top-left"></span>
+            </button>
+            <nav id="nav-menu"
+              class="hidden absolute py-5 lg:shadow-none lg:rounded-none bg-white shadow-lg rounded-lg max-w-[250px] w-full right-5 top-full lg:block lg:static lg:bg-transparent lg:max-w-full">
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a href="index.html" class="text-lg text-slate-600 py-2 mx-6 flex group-hover:text-blue-600">
+                    Home
+                  </a>
+                </li>
+                <li class="group">
+                  <a href="perguruan.html" class="text-lg text-slate-600 py-2 ml-6 flex group-hover:text-blue-600">
+                    Perguruan Tinggi
+                  </a>
+                </li>
+                <li class="group">
+                  <a href="jurusan.html" class="text-lg text-slate-600 py-2 ml-6 flex group-hover:text-blue-600">
+                    Jurusan
+                  </a>
+                </li>
+                <li class="group">
+                  <a href="login.html" class="text-lg font-semibold text-white py-2 ml-6 flex">
+                    <div class="bg-blue-500 px-[1.4rem] py-1 lg:px-3 rounded-md hover:bg-blue-700">
+                      Login
+                    </div>
+                  </a>
+                </li>
+                <li class="group">
+                  <a href="" class="text-lg font-semibold text-white py-2 ml-6 lg:ml-2 flex">
+                    <div class="bg-blue-500 hover:bg-blue-700 py-1 px-3 rounded-md">
+                      Register
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Start Perguruan Section -->
+    <section id="perguruan" class="pt-28 lg:pt-36 pb-32 bg-gray-50">
+      <div class="container mx-auto px-2">
+        <div class="w-full px-4">
+          <div class="w-full px-4">
+            <div class="max-w-xl mx-auto text-center mb-10">
+              <h4 class="font-semibold text-xl text-blue-600 mb-2">Perguruan Tinggi</h4>
+              <h2 class="font-bold text-black text-3xl mb-4">Rekomendasi Perguruan Tinggi</h2>
+            </div>
+            <div class="w-80 mx-auto text-center mb-16">
+              <input type="text" placeholder="Search..." id="searchBar" name="searchBar" class="py-2 px-2 w-full border border-gray-400 rounded-md focus:ring-blue-500 focus:border-blue-500">
+            </div>
+          </div>
+
+          <div class="flex flex-wrap" id="root">
+
+
+            <!-- <div class="w-full px-4 md:w-1/2 lg:w-1/4">
+              <div class="bg-white rounded-xl border overflow-hidden shadow-lg mb-12">
+                <img src="img/kampus/polinema.png" alt="" class="w-full h-48">
+                <div class="py-8 px-6">
+                  <h3>
+                    <a href="#" class="block mb-3 font-semibold text-xl text-black hover:text-primary">
+                      Politeknik Negeri Malang
+                    </a>
+                  </h3>
+                  <p class="text-base font-medium text-slate-600 mb-6 line-clamp-4 lg:line-clamp-3">
+                    Polinema adalah institusi pendidikan tinggi vokasi yang terletak di kota Malang.
+                    Malang adalah kota terbesar kedua di
+                    Jawa Timur,Indonesia. Malang merupakan tempat yang nyaman untuk belajar karena
+                    udaranya yang sejuk dan populasi yang
+                    tidak begitu padat (sekitar 800 ribu penduduk).
+                  </p>
+                  <a href="#"
+                    class="font-medium text-sm text-white bg-blue-400 py-2 px-4 rounded-lg hover:bg-blue-600 hover:shadow-md">
+                    Selengkapnya...
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-full px-4 md:w-1/2 lg:w-1/4">
+              <div class="bg-white rounded-xl border overflow-hidden shadow-lg mb-12">
+                <img src="img/kampus/ub.jpg" alt="" class="w-full h-48">
+                <div class="py-8 px-6">
+                  <h3>
+                    <a href="#" class="block mb-3 font-semibold text-xl text-black hover:text-primary">
+                      Unversitas Brawijaya
+                    </a>
+                  </h3>
+                  <p class="text-base font-medium text-slate-600 mb-6 line-clamp-4">
+                    Universitas Brawijaya (UB) didirikan oleh Presiden Republik Indonesia melalui
+                    kawat no. 258/K/61 dikirim pada tanggal 11
+                    Juli 1961.
+                  </p>
+                  <a href="#"
+                    class="font-medium text-sm text-white bg-blue-400 py-2 px-4 rounded-lg hover:bg-blue-600 hover:shadow-md">
+                    Selengkapnya...
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-full px-4 md:w-1/2 lg:w-1/4">
+              <div class="bg-white rounded-xl border overflow-hidden shadow-lg mb-12">
+                <img src="img/kampus/UM-malang.jpg" alt="" class="w-full h-48">
+                <div class="py-8 px-6">
+                  <h3>
+                    <a href="#" class="block mb-3 font-semibold text-xl text-black hover:text-primary">
+                      Universitas Malang
+                    </a>
+                  </h3>
+                  <p class="text-base font-medium text-slate-600 mb-6 line-clamp-4">
+                    Berawal dari Perguruan Tinggi Pendidikan Guru (PTPG) pada tahun 1954,
+                    universitas di Malang ini resmi berganti nama
+                    sebagai Universitas Negeri Malang pada tahun 1999.
+                  </p>
+                  <a href="#"
+                    class="font-medium text-sm text-white bg-blue-400 py-2 px-4 rounded-lg hover:bg-blue-600 hover:shadow-md">
+                    Selengkapnya...
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-full px-4 md:w-1/2 lg:w-1/4">
+              <div class="bg-white rounded-xl border overflow-hidden shadow-lg mb-12">
+                <img src="img/kampus/Universitas Islam Negeri Maulana Malik Ibrahim.jpg" alt="" class="w-full h-48">
+                <div class="py-8 px-6">
+                  <h3 class="">
+                    <a href="#" class="block mb-3 font-semibold text-xl text-black hover:text-primary line-clamp-2">
+                      UIN Maulana Malik Ibrahim
+                    </a>
+                  </h3>
+                  <p class="text-base font-medium text-slate-600 mb-6 line-clamp-4 lg:line-clamp-3">
+                    Universitas Islam Negeri Maulana Malik Ibrahim Malang berdiri berdasarkan Surat
+                    Keputusan Presiden No. 50 tanggal 21
+                    Juni 2004.
+                  </p>
+                  <a href="#"
+                    class="font-medium text-sm text-white bg-blue-400 py-2 px-4 rounded-lg hover:bg-blue-600 hover:shadow-md">
+                    Selengkapnya...
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-full px-4 md:w-1/2 lg:w-1/4">
+              <div class="bg-white rounded-xl border overflow-hidden shadow-lg mb-12">
+                <img src="img/kampus/Universitas Islam Negeri Maulana Malik Ibrahim.jpg" alt="" class="w-full h-48">
+                <div class="py-8 px-6">
+                  <h3 class="">
+                    <a href="#" class="block mb-3 font-semibold text-xl text-black hover:text-primary line-clamp-2">
+                      UIN Maulana Malik Ibrahim
+                    </a>
+                  </h3>
+                  <p class="text-base font-medium text-slate-600 mb-6 line-clamp-4 lg:line-clamp-3">
+                    Universitas Islam Negeri Maulana Malik Ibrahim Malang berdiri berdasarkan Surat
+                    Keputusan Presiden No. 50 tanggal 21
+                    Juni 2004.
+                  </p>
+                  <a href="#"
+                    class="font-medium text-sm text-white bg-blue-400 py-2 px-4 rounded-lg hover:bg-blue-600 hover:shadow-md">
+                    Selengkapnya...
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-full px-4 md:w-1/2 lg:w-1/4">
+              <div class="bg-white rounded-xl border overflow-hidden shadow-lg mb-12">
+                <img src="img/kampus/Universitas Islam Negeri Maulana Malik Ibrahim.jpg" alt="" class="w-full h-48">
+                <div class="py-8 px-6">
+                  <h3 class="">
+                    <a href="#" class="block mb-3 font-semibold text-xl text-black hover:text-primary line-clamp-2">
+                      UIN Maulana Malik Ibrahim
+                    </a>
+                  </h3>
+                  <p class="text-base font-medium text-slate-600 mb-6 line-clamp-4 lg:line-clamp-3">
+                    Universitas Islam Negeri Maulana Malik Ibrahim Malang berdiri berdasarkan Surat
+                    Keputusan Presiden No. 50 tanggal 21
+                    Juni 2004.
+                  </p>
+                  <a href="#"
+                    class="font-medium text-sm text-white bg-blue-400 py-2 px-4 rounded-lg hover:bg-blue-600 hover:shadow-md">
+                    Selengkapnya...
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-full px-4 md:w-1/2 lg:w-1/4">
+              <div class="bg-white rounded-xl border overflow-hidden shadow-lg mb-12">
+                <img src="img/kampus/Universitas Islam Negeri Maulana Malik Ibrahim.jpg" alt="" class="w-full h-48">
+                <div class="py-8 px-6">
+                  <h3 class="">
+                    <a href="#" class="block mb-3 font-semibold text-xl text-black hover:text-primary line-clamp-2">
+                      UIN Maulana Malik Ibrahim
+                    </a>
+                  </h3>
+                  <p class="text-base font-medium text-slate-600 mb-6 line-clamp-4 lg:line-clamp-3">
+                    Universitas Islam Negeri Maulana Malik Ibrahim Malang berdiri berdasarkan Surat
+                    Keputusan Presiden No. 50 tanggal 21
+                    Juni 2004.
+                  </p>
+                  <a href="#"
+                    class="font-medium text-sm text-white bg-blue-400 py-2 px-4 rounded-lg hover:bg-blue-600 hover:shadow-md">
+                    Selengkapnya...
+                  </a>
+                </div>
+              </div>
+            </div> -->
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!-- End Perguruan Section -->
+
+
+    <!-- Start Footer -->
+    <footer>
+
+    </footer>
+    <!-- End Footer -->
+
+
+    <script src="dist/js/script.js"></script>
+    <script src="seacrhPerguruan.js"></script>
+  </body>
+
+</html>
